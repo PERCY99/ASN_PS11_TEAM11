@@ -1,0 +1,113 @@
+.con{
+    padding-top: 5%;
+}
+.tlarge{
+    height: 45px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+.tex{
+    height: 57px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+}
+.join:hover{
+    text-decoration: none;
+}
+.bn{
+    width: 405px;
+    height: 58px;
+    border-radius: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.bn-fb{
+    background: #5170B4;
+}
+.bn-g{
+    background: #4FC3F7;
+}
+.bn-g:hover{
+    background-color: #4FC3F7;
+}
+span{
+    color: #000000;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+.invalid-password{
+    color: red;
+    font-size: 16px;
+    margin-top: -15px;
+}
+.box-d{
+    background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.17);
+border-radius: 10px;
+width: 290px;
+}
+.my-facebook-button-class{
+    background-color: #5170B4;
+    outline: none !important;
+    border: none !important;
+}
+.google-button{
+    background-color: #5170B4 !important;
+}
+.login-with-google{
+    background-color: #4FC3F7;
+    outline: none !important;
+    border: none;
+}
+.my-facebook-button-class:hover{
+    text-decoration: none;
+    
+    background-color: transparent;
+}
+.login-with-google:hover{
+    text-decoration: none;
+    
+}
+
+@media(max-width:565px){
+    .reduce-signup{
+        margin-bottom: 0;
+        font-size: 28px;
+    }
+    .reduce-margin-0{
+        margin-top: -8px;
+    }
+    .reduce-margin-1{
+        margin-top: -25px;
+    }
+    .f-mobile-10{
+        font-size: 15px !important;
+    }
+    .reduce-size-login{
+        width: 240px;
+        float: right;
+    }
+    
+    .my-facebook-button-class{
+        background-color: #5170B4;
+        outline: none !important;
+        border: none !important;
+    font-size: 20px;
+    }
+    .login-with-google{
+        background-color: #4FC3F7;
+        outline: none;
+        border: none;
+        font-size: 20px;
+    }
+}

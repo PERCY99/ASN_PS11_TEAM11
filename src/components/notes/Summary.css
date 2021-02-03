@@ -1,0 +1,157 @@
+.btn-xl{
+    background: #00C2FF !important;
+    border-radius: 15px !important;
+}
+.compact{
+    border-radius: 15px !important;
+}
+.box-l{
+    background: #FFFFFF !important;
+box-shadow: 0px 2px 2px #6A6A6A !important;
+}
+.noteshead{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 34px;
+color: #000000;
+}
+.pdf-name-padding{
+    padding-left: 10px;
+}
+.padding-5{
+    margin-left: 40px;
+}
+.notesheadm{
+    font-size: 18px;
+}
+.neg-margin{
+    margin-top:-1px;
+}
+.small-icons-mcq{
+    display: none;
+}
+.notesheadk{
+    font-size: 20px;
+}
+.notesheadp{
+    font-size: 14px;
+}
+.neg-mar{
+    margin-top: -15px;
+}
+.summar-image{
+    width: 100px !important;
+    height: 100px;
+}
+.add-to-cart-btn{
+background:#40B3E0;
+border-radius:15px;
+width:160px;
+}
+.sss{
+    z-index: 1;
+}
+.summary-border-1{
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px #6A6A6A;
+width: 120px;
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+.less-size-1{
+    display: none;
+}
+.less-less-size-1{
+    display: none;
+}
+.veryless-less-size-1{
+    display: none;
+}
+.a-1069-size{
+display: none;
+}
+.a-741-size{
+    display: none;
+}
+.a-450-size{
+    display: none;
+}
+@media(max-width:1069px){
+    .more-size-mcq{
+        display: none;
+    }
+    .a-1069-size{
+        display: block;
+    }
+}
+
+@media(max-width:850px){
+    .pdf-image{
+        width: 100px !important;
+        height: 80px !important;
+    }
+    .pdf-text{
+        font-size: 1rem;
+    }
+    .more-size-1{
+        display: none;
+    }
+    .less-size-1{
+        display: block;
+    }
+}
+@media(max-width:800px){
+   .less-size-1{
+       display: none;
+   } 
+   .less-less-size-1{
+       display: block;
+   }
+}
+@media(max-width:769px){
+    .a-1069-size{
+        display: none;
+    }
+    .a-741-size{
+        display: block;
+    }
+}
+@media(max-width:504px){
+    .summary-image{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .large-icons-mcq{
+        display: none;
+    }
+    .small-icons-mcq{
+        display: inline;
+    }
+    .add-to-cart-btn{
+        background:#40B3E0;
+        border-radius:15px;
+        width:120px;
+        }
+    .f-8{
+        font-size: 10px !important;
+    }
+    .summary-border-1{
+        background: #FFFFFF;
+    box-shadow: 0px 2px 6px #6A6A6A;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    }
+    .reduce-button-size{
+        font-size: 11px !important;
+        width: 80px !important;
+    }
+}

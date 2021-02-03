@@ -1,0 +1,156 @@
+.na{
+    position: absolute;
+    top: 0;
+}
+.n{
+    transform: translate(150px,20px);
+}
+.more-size{
+    
+    display: block;
+}
+.less-size{
+    display: none;
+}
+.header{
+        background-image: url('../images/upsc\ emblem\ banner.jpeg');
+        -webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+height: 45vh;
+opacity: 1;
+background-position: center;
+}
+.heading{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 34px;
+color: #000000;
+}
+.sym{
+    padding: 15px 20px;
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px #6A6A6A;
+margin-top: -7px;
+}
+.fa-th{
+    color: #0093C4;
+    padding: 5px;
+    border: 5px solid #0093C4;;
+    border-radius: 10px;
+}
+.more{
+    position: absolute;
+    left: 120px;
+}
+.chat{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+.fa-comment-alt{
+    color: #0093C4;
+}
+.chatwith{
+    color: #0093C4;
+}
+.place{
+    top: 30px;
+    left: 40px;
+}
+.Test-font{
+    
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 4px;
+}
+.Total-users{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+.mock{
+    line-height: 25px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-weight: 500;
+    color:#6A6A6A
+}
+.cont1{
+    width: 85%;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+}
+@media(max-width:784px){
+    .heading{
+        font-size: 21px;
+    }
+    .header{
+        height: 35vh;
+    }
+}
+@media(max-width:515px){
+    .header{
+        background-image: url('../images/home\ mobile\ \(2\).png');
+        -webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+height: 40vh;
+}   
+.center-contents{
+    justify-content: center !important;
+
+}
+.more-size{
+    display: none;
+}
+.hide-xl{
+    display: none;
+}
+.less-size{
+    display: block;
+}
+.sym{
+    padding: 10px 15px;
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px #6A6A6A;
+margin-top: -7px;
+}
+.Test-font{
+    padding-top: 20px;
+    font-size: 19px;
+    margin-left: 30px;
+}
+.place{
+    top: 25px;
+    left: 35px;
+}
+.heading {
+    font-size: 19px;
+}
+.more{
+    position: absolute;
+    left: 0px;
+    top: 125px;
+}
+.header{
+    background-image: url(../images/home\ mobile.png);
+}
+}

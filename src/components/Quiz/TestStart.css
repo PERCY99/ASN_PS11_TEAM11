@@ -1,0 +1,44 @@
+.top-gif{
+    background: url(../../images/bg-gif-2.gif);
+    height: 30vh;
+    overflow: hidden;
+}
+.f-48{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+}
+.f-18{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+}
+.body-head{
+    background-color: #F9F9F9;
+}
+.body-heade{
+    height: 12vh;
+}
+.btn-test{
+    background: #00C2FF;
+border-radius: 15px;
+width: 180px;
+padding: 4px;
+outline: none;
+border: none;
+}
+.direction-icons{
+    font-size: 15px;
+    font-weight: normal;
+}
+.d-icons{
+   margin-left: 10px; 
+}
+.span-rem{
+
+    left: 15px;
+}

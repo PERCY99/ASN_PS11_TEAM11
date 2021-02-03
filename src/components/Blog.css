@@ -1,0 +1,12 @@
+.header-blog{
+    background: url(../images/blogs.png);
+    height: 55vh;
+    background-size: cover;
+}
+@media(max-width:444px){
+    .header-blog{
+        background: url(../images/blogs\ mobile.png);
+        height: 40vh;
+        background-size: cover;
+    }
+}

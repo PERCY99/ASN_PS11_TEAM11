@@ -1,0 +1,63 @@
+.btn-test-l{
+    width: 90px;
+}
+.mcq-icon{
+width: 120px;
+        padding: 11px 20px;
+        background: #FFFFFF;
+    box-shadow: 0px 2px 6px #6A6A6A;
+}
+.btn-la{
+    background: #00C2FF;
+    border-radius: 10px;
+    width: 280px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size:24px ;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.empty-cart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.add-to-wish-hover{
+    color: whitesmoke;
+    background-color: black;
+    font-size: 15px;
+    padding:5px 10px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
+.delete-hover{
+    color: whitesmoke;
+    background-color: black;
+    font-size: 15px;
+    padding:5px 10px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
+.fa-bookmark:hover .add-to-wish-hover{
+    display: block;
+}
+.fa-trash-alt:hover .delete-hover{
+    display: block;
+}
+.sidenav-z{
+    z-index:100;
+}
+@media(max-width:550px){
+    .mob-cart{
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: start;
+    }
+    .font-mob{
+        margin-left: 15px;
+    }
+}

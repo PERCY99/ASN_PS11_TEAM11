@@ -1,0 +1,24 @@
+.header-aboutus{
+    background: url('../images//about\ us.png');
+    height: 45vh;
+    background-size: cover;
+}
+.f-text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+margin-top: -10px;
+}
+@media(max-width:700px){
+    .header-aboutus{
+        background: url(../images/about\ us\ mobile.png);
+        height: 50vh;
+        background-size: cover;
+    }
+}
+@media(max-width:550px){
+    .f-text{
+        padding-left:35px;
+    }
+}

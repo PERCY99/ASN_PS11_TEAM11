@@ -1,0 +1,30 @@
+.no-hover:hover{
+    text-decoration: none;
+    color: black;
+}
+.no-hover{
+    color: black;
+}
+.news-image{
+    width: 180px;
+    height: 120px;
+    box-shadow: 0px 2px 6px #6A6A6A;
+}
+.f-29-unbold{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.article-icons{
+    display: flex;
+    justify-content: end !important;
+    padding-right: 5px;
+}
+@media(max-width:784px){
+    .article-icons{
+        display: flex;
+        justify-content: center !important;
+    }
+}

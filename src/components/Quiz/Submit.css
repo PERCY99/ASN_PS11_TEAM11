@@ -1,0 +1,98 @@
+.left-nav{
+    background:url(../../images/bg-gif-2.gif);
+    height: 100vh;
+    }
+  
+    .f-24{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .f-24-1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .blue-bg{
+background: #8FE4FE;
+border-radius: 15px;
+height: 85px;
+    }
+    .f-40{
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: #000000    
+}
+    .f-36{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;   
+        color: #000000;
+    }
+    .f-28{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;   
+        color: #000000;
+    }
+    .f-144{
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 169px;
+    }
+    .label-color-red{
+        border-left:12px solid #F90909;
+        border-right:12px solid #F90909;
+    }
+    .label-color-blue{
+        border-left:12px solid #0093C4;
+        border-right:12px solid #0093C4;
+    }
+    .f-34{
+        font-family: Roboto;
+font-style: normal;
+font-size: 34px;
+line-height: 47px;
+    }
+    .box-q{
+        background: rgba(255, 255, 255, 0.92);
+box-shadow: 0px 2px 6px #6A6A6A;
+border-radius: 15px;
+    }
+    @media(max-width:856px){
+        .f-144{
+            font-size: 70px;
+            line-height: normal;
+        }
+        .f-24-1{
+            font-size: 18px;
+        }
+        .f-28{
+            font-size: 18px !important;
+        }
+    }
+    @media(max-width:550px){
+        .f-24-1{
+            font-size: 12px;
+        }
+        .f-144{
+            font-size: 40px;
+        }
+    }
+    

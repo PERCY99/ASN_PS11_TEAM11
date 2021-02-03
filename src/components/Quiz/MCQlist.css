@@ -1,0 +1,35 @@
+.mcqb{
+    background: url(../../images/mcqp.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table tbody tr:nth-child(odd){
+    background: #EEEEEE;
+}
+
+
+.f-34{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 34px;
+}
+.f-25{
+    font-family: Roboto;
+font-style: normal;
+font-size: 24px;
+line-height: 28px;
+}
+@media(max-width:992px){
+    .mcqb{
+        height: 0;
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.round-border{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+    color: #4FC3F7;
+}
+.btn-la1{
+    background: #00C2FF;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size:24px ;
+    font-family: Roboto;
+    font-weight: bold;
+}

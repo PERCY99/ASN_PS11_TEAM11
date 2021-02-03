@@ -1,0 +1,16 @@
+.header-terms{
+    background-image: url(../images/terms\ and\ conditions.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 55vh;
+  background-position: right;
+}
+@media(max-width:444px){
+  .header-terms{
+      background: url(../images/terms\ and\ conditionsmobile.png);
+      height: 44vh;
+      background-size: cover;
+  }
+}

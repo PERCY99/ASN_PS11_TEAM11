@@ -1,0 +1,77 @@
+.header-jteam{
+    background: url(../images/JOIN\ OUR\ TEAM.png);
+    height: 40vh;
+    background-size: cover;
+}
+.j-team-image{
+    width: 120px;
+    margin-left: 10px;
+    height: 90px;
+    border-radius: 10px;
+}
+.upload-cv{
+    border: none;
+}
+.member{
+    display: flex;
+    justify-content: space-around !important;
+}
+@media(max-width:996px){
+    .j-team-image{
+        width: 140px;
+        margin-left: 10px;
+        height: 120px;
+        border-radius: 10px;
+    } 
+    
+}
+@media(max-width:768px){
+    .reduce-image-size-mobile{
+        width: 80px !important;
+    }
+    .j-team-adjust{
+        margin-left: 90px !important;
+    }
+    .header-jteam{
+        background: url(../images/JOIN\ OUR\ TEAM\ mobile.png);
+        height: 40vh;
+    }
+    .j-team{
+        margin-left: 75px !important;
+    }
+    .j-team-image{
+        width: 150px;
+        margin-left: 10px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    .upload-cv{
+        border: none;
+        width: 150px;
+    }
+}
+@media(max-width:514px){
+    .reduce-image-size-mobile{
+        width: 80px !important;
+    }
+    .j-team-adjust{
+        margin-left: 90px !important;
+    }
+    .header-jteam{
+        background: url(../images/JOIN\ OUR\ TEAM\ mobile.png);
+        height: 40vh;
+    }
+    .j-team{
+        margin-left: 45px !important;
+    }
+    .j-team-image{
+        width: 100px;
+        margin-left: 10px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .upload-cv{
+        border: none;
+        width: 150px;
+    }
+}

@@ -1,0 +1,53 @@
+.header-contactus{
+    background-image: url(../images/contact\ us\ \(1\).png);
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 48vh;
+}
+.btn-large{
+background: #00C2FF;
+border-radius: 15px;
+width: 150px;
+}
+.form-box{
+  background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.17);
+border-radius: 10px;
+}
+.contactus{
+  
+font-family: Roboto;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color: #000000;
+}
+.side-contact{
+  background: url(../images/contact.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.close-btn{
+  background-color:#00C2FF;
+  position: absolute;
+  padding:10px 20px;
+  font-size: 18px;
+  top: 0;
+  right: -0.5px;
+  cursor: pointer;
+}
+@media(max-width:600px){
+  .contact-us-1{
+    display: block !important;
+    margin-left: 55px !important;
+  }
+  .header-contactus{
+    background: url(../images/contact\ us\ mbile.png) !important;
+    height: 40vh;
+    background-size: 100% !important;
+  }
+}
